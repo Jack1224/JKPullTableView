@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2585FEEE24D55BF5007EE11D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FEED24D55BF5007EE11D /* AppDelegate.swift */; };
-		2585FEF024D55BF5007EE11D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FEEF24D55BF5007EE11D /* SceneDelegate.swift */; };
 		2585FEF224D55BF5007EE11D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FEF124D55BF5007EE11D /* ViewController.swift */; };
 		2585FEF524D55BF5007EE11D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2585FEF324D55BF5007EE11D /* Main.storyboard */; };
 		2585FEF724D55BF7007EE11D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2585FEF624D55BF7007EE11D /* Assets.xcassets */; };
-		2585FEFA24D55BF7007EE11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2585FEF824D55BF7007EE11D /* LaunchScreen.storyboard */; };
 		2585FF0524D55BF7007EE11D /* JKPullTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FF0424D55BF7007EE11D /* JKPullTableViewTests.swift */; };
 		2585FF1024D55BF7007EE11D /* JKPullTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FF0F24D55BF7007EE11D /* JKPullTableViewUITests.swift */; };
+		2585FF2124D55E46007EE11D /* JKPulleyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FF2024D55E46007EE11D /* JKPulleyScrollView.swift */; };
+		2585FF2324D55EB0007EE11D /* JKPulleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FF2224D55EB0007EE11D /* JKPulleyViewController.swift */; };
+		2585FF2524D56182007EE11D /* JKTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FF2424D56182007EE11D /* JKTopViewController.swift */; };
+		2585FF2724D56190007EE11D /* JKBottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585FF2624D56190007EE11D /* JKBottomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +39,9 @@
 /* Begin PBXFileReference section */
 		2585FEEA24D55BF5007EE11D /* JKPullTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKPullTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2585FEED24D55BF5007EE11D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2585FEEF24D55BF5007EE11D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2585FEF124D55BF5007EE11D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2585FEF424D55BF5007EE11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2585FEF624D55BF7007EE11D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2585FEF924D55BF7007EE11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2585FEFB24D55BF7007EE11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2585FF0024D55BF7007EE11D /* JKPullTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKPullTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2585FF0424D55BF7007EE11D /* JKPullTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKPullTableViewTests.swift; sourceTree = "<group>"; };
@@ -49,6 +49,10 @@
 		2585FF0B24D55BF7007EE11D /* JKPullTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKPullTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2585FF0F24D55BF7007EE11D /* JKPullTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKPullTableViewUITests.swift; sourceTree = "<group>"; };
 		2585FF1124D55BF7007EE11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2585FF2024D55E46007EE11D /* JKPulleyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKPulleyScrollView.swift; sourceTree = "<group>"; };
+		2585FF2224D55EB0007EE11D /* JKPulleyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKPulleyViewController.swift; sourceTree = "<group>"; };
+		2585FF2424D56182007EE11D /* JKTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTopViewController.swift; sourceTree = "<group>"; };
+		2585FF2624D56190007EE11D /* JKBottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKBottomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,15 @@
 		2585FEEC24D55BF5007EE11D /* JKPullTableView */ = {
 			isa = PBXGroup;
 			children = (
+				2585FF1F24D55E1B007EE11D /* Model */,
+				2585FF1D24D55E1B007EE11D /* VC */,
+				2585FF1E24D55E1B007EE11D /* View */,
 				2585FEED24D55BF5007EE11D /* AppDelegate.swift */,
-				2585FEEF24D55BF5007EE11D /* SceneDelegate.swift */,
+				2585FF2624D56190007EE11D /* JKBottomViewController.swift */,
+				2585FF2424D56182007EE11D /* JKTopViewController.swift */,
 				2585FEF124D55BF5007EE11D /* ViewController.swift */,
 				2585FEF324D55BF5007EE11D /* Main.storyboard */,
 				2585FEF624D55BF7007EE11D /* Assets.xcassets */,
-				2585FEF824D55BF7007EE11D /* LaunchScreen.storyboard */,
 				2585FEFB24D55BF7007EE11D /* Info.plist */,
 			);
 			path = JKPullTableView;
@@ -126,6 +133,29 @@
 				2585FF1124D55BF7007EE11D /* Info.plist */,
 			);
 			path = JKPullTableViewUITests;
+			sourceTree = "<group>";
+		};
+		2585FF1D24D55E1B007EE11D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2585FF2224D55EB0007EE11D /* JKPulleyViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		2585FF1E24D55E1B007EE11D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2585FF2024D55E46007EE11D /* JKPulleyScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2585FF1F24D55E1B007EE11D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2585FEFA24D55BF7007EE11D /* LaunchScreen.storyboard in Resources */,
 				2585FEF724D55BF7007EE11D /* Assets.xcassets in Resources */,
 				2585FEF524D55BF5007EE11D /* Main.storyboard in Resources */,
 			);
@@ -259,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2585FF2724D56190007EE11D /* JKBottomViewController.swift in Sources */,
+				2585FF2124D55E46007EE11D /* JKPulleyScrollView.swift in Sources */,
 				2585FEF224D55BF5007EE11D /* ViewController.swift in Sources */,
+				2585FF2524D56182007EE11D /* JKTopViewController.swift in Sources */,
+				2585FF2324D55EB0007EE11D /* JKPulleyViewController.swift in Sources */,
 				2585FEEE24D55BF5007EE11D /* AppDelegate.swift in Sources */,
-				2585FEF024D55BF5007EE11D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +335,6 @@
 				2585FEF424D55BF5007EE11D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2585FEF824D55BF7007EE11D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2585FEF924D55BF7007EE11D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,8 +459,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q8WHRY2RJV;
+				DEVELOPMENT_TEAM = HN34G8342F;
 				INFOPLIST_FILE = JKPullTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +478,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q8WHRY2RJV;
+				DEVELOPMENT_TEAM = HN34G8342F;
 				INFOPLIST_FILE = JKPullTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
